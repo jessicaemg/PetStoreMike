@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petstoremike.Pet" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-15T21:31:02" hostname="ASUS-JESSICA" time="4.448">
+  <properties/>
+  <testcase name="incluirPet" classname="petstoremike.Pet" time="4.448"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 160120232223,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "Mike Wesley",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2023,
+            "name": "TesteApi"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Sat, 15 Apr 2023 21:31:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 160120232223,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "Mike Wesley",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2023,
+            "name": "TesteApi"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
